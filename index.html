@@ -8,21 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>SearchMe</title>
+<link rel="stylesheet" href="dist/css/style.min.css">
+    <title>Giggle</title>
 </head>
 <body>
 <main>
-    <h1 class="offscreen">Search Me, a wikipedia search engine</h1>
+    <h1 class="offscreen">Giggle, a wikipedia search engine</h1>
     <section class="searchEntry">
         <h2 class="offscreen">Search Term Entry</h2>
         <div class="logo" aria-hidden="true">
-            Search Me
+            <span class="blue">G</span>
+            <span class="red">i</span>
+            <span class="yellow">g</span>
+            <span class="blue">g</span>
+            <span class="green">l</span>
+            <span class="blue">e</span>
+            <span class="yellow exclaim">!</span>
         </div>
         <form id="searchBar" class="searchBar">
             <label class="offscreen" for="search">Enter a search term of phrase</label>
             <input id="search" type="text" autocomplete="off"/>
             <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="clear search terms"><i class="fa-solid fa-x"></i></div>
-            <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button"><i class="fa-solid fa-magnifying-glass blue"></i></button>
         </form>
     </section>
     <section class="results">
@@ -36,7 +43,7 @@
         <a href="">Dachshund</a>
     </div>
     <div class="resultContents">
-        <div class="resultImg">
+        <div class="resultImage">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mao-the-dachshund-wikipedia.png/50px-Mao-the-dachshund-wikipedia.png" alt="Dachshund">
         </div>
         <div class="resultText">
